@@ -33,6 +33,8 @@ export const setQuestionTypes = (screenName,id,questiontype) => {
 }
 
 
+
+
 export const goToResults = (params,results) => {
   return dispatch => {
     dispatch({type: Types.COMPLETEQUIZ, payload :results})
